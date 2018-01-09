@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Scriptorama;
+    src: url('font/Scriptorama.ttf');
+}
+
+.container {
+    margin: 0 auto;
+    padding: 25px 0 0;
+    position: relative;
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    color: #7E7E7E;
+    font-family: Scriptorama,arial;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    border: 1px solid #c8c8c8;
+    color: #777;
+    font: 13px Helvetica, Arial, sans-serif;
+    margin: 0 0 10px;
+    padding: 15px 10px 15px 40px;
+    width: 80%;
+}
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+    box-shadow: 0 0 2px #ed1c24 inset;
+    background-color: #fff;
+    border: 2px solid #ed1c24;
+    outline: none;
+}
+form input[type="button"],
+form input[type="submit"] {
+    font-family: Scriptorama,arial;
+    background: rgb(254,231,154);
+    border-radius: 30px;
+    border: 2px solid #D69E31;
+    color: #85592e;
+    float: left;
+    margin: 20px 0 35px 15px;
+    width: 120px;
+}
+
+form input[type="button"]:hover,
+form input[type="submit"]:hover {
+    background: rgb(254,193,81);
+}
+
+form div a {
+    color: #004a80;
+    float: right;
+    font-size: 12px;
+    margin: 30px 15px 0 0;
+    text-decoration: none;
+}
+
+form div a:hover {
+    color: #004a80;
+    float: right;
+    font-size: 12px;
+    margin: 30px 15px 0 0;
+    text-decoration: underline;
+}
+
+.danger {
+    size: 15px;
+    color: red;
+    background: #ffb6f9;
+}
+
+#animation {
+    transition-property: background-color;
+    transition-duration: 3s;
+}
